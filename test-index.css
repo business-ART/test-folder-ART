@@ -58,6 +58,12 @@ body {
   height: 7px;
   margin-left: 95px;
   cursor: pointer;
+  transform: rotate(180deg);
+  transition: transform .2s ease;
+}
+
+.arrow-1:active {
+  transform: rotate(0deg);
 }
 
 .answer-1 {
